@@ -11,6 +11,7 @@ var recognition = new webkitSpeechRecognition();
         };
 
 function onMicClick() {
+        alert('start');
         //window.SpeechRecognition = window.SpeechRecognition || webkitSpeechRecognition;
         
         //recognition.onresult = (event) => {
