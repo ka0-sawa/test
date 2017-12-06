@@ -22,7 +22,8 @@ function onMicClick() {
         //};
 
         // 録音開始
-        recognition.start();
+        recognition.start
+        return false;
 };
 
 function onStopClick(){
